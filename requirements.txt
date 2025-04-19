@@ -1,0 +1,8 @@
+streamlit==1.44.1
+scikit-learn==1.6.1
+requests
+pandas
+plotly
+folium
+streamlit-folium
+
