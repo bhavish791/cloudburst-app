@@ -27,7 +27,7 @@ st.markdown("""
         }
     </style>
     <div class="app-header">
-        <h1>🌩️ Cloudburst pridiction</h1>
+        <h1>🌩️ Cloudburst prediction</h1>
         
     </div>
 """, unsafe_allow_html=True)
