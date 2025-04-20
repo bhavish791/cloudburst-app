@@ -36,7 +36,7 @@ def get_user_city():
     except:
         return "Mumbai"
     
-    city = st.text_input("📍 Enter your city", placeholder="e.g., Delhi, New York", value="Dalles")
+city = st.text_input("📍 Enter your city", placeholder="e.g., Delhi, New York", value="Dalles")
 
 
 # --- Get current weather ---
