@@ -182,6 +182,6 @@ st.markdown("""
         }
     </style>
     <div class="footer">
-        © 2025 <b>Weather App</b> | Built with ❤️ by <a href="https://github.com/your-username" target="_blank">Your Name</a> 
+        © 2025 <b>Weather App</b> | Built with ❤️ by <a href="https://github.com/your-username" target="_blank">-3P.b-</a> 
     </div>
 """, unsafe_allow_html=True)
