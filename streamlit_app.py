@@ -35,9 +35,7 @@ def get_user_city():
         return response.json().get("city", "Mumbai")
     except:
         return "Mumbai"
-    
-city = st.text_input("📍 Enter your city", placeholder="e.g., Delhi, New York", value="Dalles")
-
+        
 
 # --- Get current weather ---
 def get_weather_data(city, api_key):
