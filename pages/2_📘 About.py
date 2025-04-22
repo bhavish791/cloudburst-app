@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="About", page_icon="📘", layout="wide")
 
-# 🌄 Background styling + main block
+# Background styling + main block
 st.markdown("""
     <style>
         [data-testid="stAppViewContainer"] {
@@ -20,6 +20,7 @@ st.markdown("""
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             margin-bottom: 2rem;
+            font-family: Helvetica Neue,Arial, sans-serif;
         }
         .app-header {
             background: linear-gradient(to right, #2193b0, #6dd5ed);
@@ -36,14 +37,14 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# ✅ Header (outside the content block)
+#  Header (outside the content block)
 st.markdown("""
     <div class="app-header">
         <h1>🌦️ Weather & Cloudburst App</h1>
     </div>
 """, unsafe_allow_html=True)
 
-# ✅ Main content inside a styled block
+#  Main content inside a styled block
 st.markdown('<div>', unsafe_allow_html=True)
 
 st.title("📘 About This Project")
@@ -52,21 +53,20 @@ st.markdown("""
 Welcome to the **Cloudburst Prediction and Weather App** built using **Streamlit**.
 
 ### 🌩️ Cloudburst Prediction
-- Uses a machine learning model to detect high-risk weather.
-- Inputs: Temperature, Apparent Temperature, Humidity, Wind Speed, Visibility, and Pressure.
+⋆ Uses a machine learning model to detect high-risk weather.
+⋆ Inputs: Temperature, Apparent Temperature, Humidity, Wind Speed, Visibility, and Pressure.
 
 ### 🌍 Live Weather
-- Real-time weather data from OpenWeatherMap.
-- See temperature, wind, humidity, and get smart suggestions!
+⋆ Real-time weather data from OpenWeatherMap.
+⋆ See temperature, wind, humidity, and get smart suggestions!
 
 ### 🛠️ Tech Stack
-- Streamlit
-- Python
-- OpenWeatherMap API
-- Machine Learning (Cloudburst Model)
+⋆ Streamlit
+⋆ Python
+⋆ OpenWeatherMap API
+⋆ Machine Learning (Cloudburst Model)
 
----
-Built with ❤️ for environmental safety and awareness.
+--- For environmental safety and awareness.
 """)
 
 st.markdown('</div>', unsafe_allow_html=True)
@@ -89,6 +89,6 @@ st.markdown("""
         }
     </style>
     <div class="footer">
-        © 2025 <b>Weather App</b> | Built with ❤️ by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
+        © 2025 <b>Weather App</b> | Built by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
     </div>
 """, unsafe_allow_html=True)

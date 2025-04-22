@@ -20,6 +20,7 @@ st.markdown("""
             text-align: center;
             color: white;
             margin-bottom: 20px;
+            font-family: Helvetica Neue,Arial, sans-serif;
         }
         .app-header h1 {
             margin: 0;
@@ -72,7 +73,7 @@ if city:
         col1, col2 = st.columns([3, 1])
         with col1:
             st.markdown(f"""
-                <div style="background-color: white; padding: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                <div style="background-color: white; padding: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);font-family: Helvetica Neue,Arial, sans-serif;">
                     <h3>{weather['main']} - {desc.title()}</h3>
                     <p><b>Temperature:</b> {main['temp']} {symbol}</p>
                     <p><b>Feels Like:</b> {main['feels_like']} {symbol}</p>
@@ -192,6 +193,6 @@ st.markdown("""
         }
     </style>
     <div class="footer">
-        © 2025 <b>Weather App</b> | Built with ❤️ by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
+        © 2025 <b>Weather App</b> | Built by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
     </div>
 """, unsafe_allow_html=True)

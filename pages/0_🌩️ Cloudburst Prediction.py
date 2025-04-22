@@ -19,11 +19,13 @@ st.markdown("""
         .app-header h1 {
             margin: 0;
             font-size: 2rem;
+            font-family: Helvetica Neue,Arial, sans-serif;
         }
         .app-header p {
             margin: 0;
             font-size: 1rem;
             opacity: 0.9;
+            font-family: Helvetica Neue,Arial, sans-serif;
         }
     </style>
     <div class="app-header">
@@ -38,7 +40,7 @@ page = """
 [data-testid="stAppViewContainer"] {
     background-image: url("https://i.postimg.cc/nct12YSX/bg-for-cb.jpg");
     background-size: cover;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica Neue,Arial, sans-serif;
 }
 [data-testid="stHeader"] {
     background-color: rgba(0,0,0,0);
@@ -144,6 +146,6 @@ st.markdown("""
         }
     </style>
     <div class="footer">
-        © 2025 <b>Weather App</b> | Built with ❤️ by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
+        © 2025 <b>Weather App</b> | Built by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
     </div>
 """, unsafe_allow_html=True)

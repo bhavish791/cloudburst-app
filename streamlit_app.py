@@ -116,12 +116,12 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # --- Intro Section ---
-st.markdown("### 🚀 Features of the App")
+st.markdown("### Features of the App")
 st.markdown("""
-- 🔮 **Cloudburst Prediction** using Machine Learning  
-- 🌍 **Live Weather Forecasts** auto-detected by your location  
-- 🧠 **Smart Weather Tips** based on conditions  
-- 📰 **Latest Global Weather News**  
+╰┈➤  **Cloudburst Prediction** using Machine Learning  
+╰┈➤  **Live Weather Forecasts** auto-detected by your location  
+╰┈➤  **Smart Weather Tips** based on conditions  
+╰┈➤  **Latest Global Weather News**  
 """)
 
 # --- Show Weather Info ---
@@ -129,7 +129,7 @@ if weather_data:
     icon = weather_data["weather"][0]["icon"]
     desc = weather_data["weather"][0]["description"].title()
 
-    st.markdown(f"### 📍 Weather in {city}")
+    st.markdown(f"###  Weather in {city}")
     col1, col2 = st.columns([2, 1])
     with col1:
         st.metric("Temperature", f"{weather_data['main']['temp']} °C")
@@ -183,6 +183,6 @@ st.markdown("""
         }
     </style>
     <div class="footer">
-        © 2025 <b>Weather App</b> | Built with ❤️ by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
+        © 2025 <b>Weather App</b> | Built by <a href="https://github.com/bhavish791" target="_blank">-3P.b-</a> 
     </div>
 """, unsafe_allow_html=True)
